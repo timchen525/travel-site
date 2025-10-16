@@ -328,7 +328,7 @@ onUnmounted(() => {
 })
 
 const goToBooking = (id: string) => {
-  router.push(`/booking/${id}`)
+  router.push(`/detail/${id}`)
 }
 </script>
 
