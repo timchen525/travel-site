@@ -18,9 +18,9 @@
           <a href="#destinations" class="text-gray-700 hover:text-primary-500 transition-colors">
             目的地
           </a>
-          <a href="#about" class="text-gray-700 hover:text-primary-500 transition-colors">
+          <router-link to="/about" class="text-gray-700 hover:text-primary-500 transition-colors">
             关于我们
-          </a>
+          </router-link>
           <a href="#contact" class="text-gray-700 hover:text-primary-500 transition-colors">
             联系我们
           </a>
@@ -60,9 +60,9 @@
         <a href="#destinations" class="block text-gray-700 hover:text-primary-500 transition-colors">
           目的地
         </a>
-        <a href="#about" class="block text-gray-700 hover:text-primary-500 transition-colors">
+        <router-link to="/about" class="block text-gray-700 hover:text-primary-500 transition-colors">
           关于我们
-        </a>
+        </router-link>
         <a href="#contact" class="block text-gray-700 hover:text-primary-500 transition-colors">
           联系我们
         </a>
