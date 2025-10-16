@@ -97,7 +97,7 @@ If Playwright browsers are not available, manual testing has been documented in 
 
 ### Playwright browser not installed
 
-If you see an error about missing browsers, run the installation command from the Setup section above.
+If you see an error about missing browsers, run `npx playwright install chromium` as described in the "Install Playwright Browsers" section above.
 
 ### Port already in use
 
